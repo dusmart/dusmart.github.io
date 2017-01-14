@@ -1,0 +1,23 @@
+[
+
+{
+"id": "-2016-10-03-poem",
+"title": "Dont know how to name the title",
+"author": "Miyunluo",
+"tags": ["生活"],
+"url": "/2016/10/03/poem/",
+"date": "2016-10-03",
+"content": "  “故事与事故. ”前言数量不多，质量也不好，精(xia)选(zhua)几篇放在这里，留个纪念。被同学拿去给某自我感觉良好的老师看，勉强及格的水准。我写着玩的，你随意看看。正文      临江仙    十年心事十年忧，一枕凉簟清秋。梧桐听雨独倚楼，心海微澜，水浅不胜舟。梦里曾记少年游，笑语盈盈谁羞。雨掸秋叶落肩头，欲言还休，只是去年愁。 (给XingWuXuanJi)        长相思    夜朦胧，鸟朦胧，长街柳岸雾华浓，无歌且听风。山匆匆，水匆匆，心事只饮醉颜红，灯花已结空。        采桑子    虚竹一叶临窗扫，风也悄悄，人也悄悄，叶上寒露湿红梢。却道何事伤心早，醒也烦恼，梦也烦恼，月下江村更寂寥。        柳梢青    一夜成霜，新花吹落，雨催寒食。浮生几何，光阴虚掷，不知何世。飞鸿踏雪无字。觉几度，才下泪迟。沉思前事，去年此时，好景如斯。        青衫湿    青云沉笔雨淋铃，风吹花糁径。旧时书展，鸳鸯小字，湿遍青衫。寻常往事，落樱犹滞，总负深情。欲结绸缪，料应未有，芷约兰期。(读旧时书信)        踏莎行    归期未定，遣人闻惊。等闲谈笑声犹凝。常叹此生醉复醒，美景良辰把酒听。新来多病，有泪如倾。朱颜暗换堪临镜。旧事如烟休重省，灯昏风定人初静。(一面而别)  Addition      天落青灯    天落青灯，昨岁似曾，爆竹隔空，唯见飞星。天落青灯，铜锣隐停，烟花落零，月笼彩凝。天落青灯，花市昼仍，烛心曳风，何去何从？天落青灯，夙愿已明，莫问坠影，尘飞烟红。(春哥对我”天落青灯”四字,居然被我找到了/2014/2)  —— Miyunluo 于 2016.10"
+}, 
+
+{
+"id": "-2015-01-01-hello",
+"title": "Hello, Jekyll and TtskchTheme",
+"author": null,
+"tags": ["hello", "jekyll", "theme"],
+"url": "/2015/01/01/hello/",
+"date": "2015-01-01",
+"content": "You can use most of standard Markdown features.List  foo  bar          indentation                  nesting indentation                    indentation        buzQuote  quote      nesting quote    quoteStrikethroughMistaken text.Syntax highlighting&lt;?phpecho 'Hello, World!';Tables            First Header      Second Header                  Content Cell      Content Cell              Content Cell      Content Cell      EmojiYou can use GitHub flavored emoji :+1:  NoteIt’s not a very good idea to use emoji before &lt;!--more--&gt; because jekyll can’t render emoji in the excerpted content.See alsoMarkdown"
+}
+
+]
