@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "line_game 一款方向键控制的占领地盘小游戏"
+title:      "简单验证码的识别"
 date:       2017-03-01
 author:     "AShuai"
 tags:
