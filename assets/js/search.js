@@ -35,7 +35,7 @@ function getQuery(keys)
         var matched;
         if (matched = window.location.search.match(regex)) {
             query = decodeURIComponent(matched[1]).replace(/(　| )+/g, ' ');
-            words = query.split(' ');
+            words = query.split('+');
             key = queryKey;
             return false;  // break;
         }
@@ -51,7 +51,7 @@ function showPosts(words, targets)
 
         var dfd = $.Deferred();
         $.ajax({
-            url: baseurl + "/search.json",
+            url: baseurl + "/assets/lib/search.json",
             dataType: "json",
             timeout: 3000,  // 3 sec
             success: function (posts) {
