@@ -6,7 +6,7 @@
 url: http://aste.date
 baseurl: ""
 title: 婷儿&阿帅
-description: 心若不动，风又奈何。你若不伤，岁月无恙。
+description: Nothing changes when heart holds still.All is well as you are well。
 avatar: "/assets/img/ogp.png"
 favicon: /assets/img/ogp.png
 language: zh
@@ -18,23 +18,7 @@ icons:
   rss: true
   email: dusmart@qq.com
   github: dusmart
-  bitbucket:
-  twitter:
-  facebook:
-  google_plus:
-  tumblr:
-  behance:
-  dribbble:
-  flickr:
-  instagram:
-  linkedin: # full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange: # full URL
-  steam:
-  wordpress:
-  youtube:
+  zhihu: dusmart
 
 #
 # Prettify url.
