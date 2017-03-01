@@ -16,9 +16,9 @@ $brand-color: #03a9f4;
 $site-title-color: rgba(#000, .6);
 $page-title-color: $brand-color;
 $background-color: #fff;
-$border-color: rgba(#000, .1);
+$border-color: rgba(#000, .6);
 
 // typography colors.
 $text-color: #383838;
-$link-color: darken($brand-color, 40%);
-$blockquote-color: #777;
+$link-color: darken($brand-color, 80%);
+$blockquote-color: #999;
