@@ -44,8 +44,8 @@ logistic_regression 负责训练权值矩阵，使用了梯度下降算法
 for循环之前的语句主要是将标签转为向量，比如该字母是'c'，对应标签 **3** ,我们就将他转化为26维向量，其中第三维为 **1** ,其他为 **0** 。
 从而使得regression可以将多类识别问题转化为2类识别问题。
 
-关于for循环中的语句。首先是构建 **loss function** ， error = y-sigmod(x*weigths), 后通过最大似然估计得到 **cost function** ,对 **cost function** 求导得到一个梯度方向 train_x.transpose() * error， 结论十分优美，过程看不懂（矩阵求导没学过，直接搜到了结论）。
-每一步都让weight向着梯度的方向下滑，参数alpha表示学习速率，其大小由经验得来。
+关于for循环中的语句。首先是通过最大似然估计（对所有在输入的训练属性值x<sub>i</sub>下，得到相应标签y<sub>i</sub>的概率之积）得到 **负的cost function** ,为了使其值最大，对 **cost function** 求导得到一个梯度方向 train_x.transpose() * error， 结论十分优美，过程没法一步一步理解（矩阵求导没学过，直接搜到了结论）。
+for循环的每一步都让weight向着梯度的方向下滑，参数alpha表示学习速率，其大小由经验得来。
 
 alpha一般是这样试的--->1,0.1,0.01,0.001...
 
