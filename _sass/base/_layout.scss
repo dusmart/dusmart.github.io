@@ -1,6 +1,6 @@
 $site-max-width: 1200px;
 $mobile-width: 800px;
-$side-padding: 0px;
+$side-padding: 10px;
 
 * {
     margin: 0;
@@ -36,6 +36,13 @@ $side-padding: 0px;
 .site-content {
     width: 70%;
     float: left;
+    @media screen and (max-width: $mobile-width) {
+        width: 100%;
+        padding: 0 0;
+    }
+}
+
+.post-content {
     @media screen and (max-width: $mobile-width) {
         width: 100%;
         padding: 0 $side-padding;
