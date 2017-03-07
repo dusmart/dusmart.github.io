@@ -2,9 +2,10 @@
 layout:     post
 title:      "简单验证码的识别"
 date:       2017-03-01
-author:     "AShuai"
+author:     "dusmart"
 tags:
-    - project code
+    - project
+    - code
 ---
 
 交大统一身份认证页面验证码的识别，实际测试中的成功率92%-94%

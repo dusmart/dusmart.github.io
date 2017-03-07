@@ -3,7 +3,7 @@ layout:     post
 title:      "Dynamic Programming demo"
 subtitle:   " \"Give me your space,I will save your time.\""
 date:       2017-02-19
-author:     "AShuai"
+author:     "dusmart"
 tags:
     - code
 ---
