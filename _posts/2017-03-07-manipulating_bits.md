@@ -7,7 +7,7 @@ tags:
     - code
 ---
 
-> [CS359 Computer Architecture Project 1](/material/2017-03-07-Project1.zip)
+> [CS359 Computer Architecture Project 1](/assets/material/2017-03-07-Project1.zip)
 
 <!--more-->
 
