@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "Python Learning Notes"
+title:      "Python Learning Notes 1"
 date:       2017-03-02
 author:     "tinger"
 tags:
     - code
 ---
 
-> 记Python的数据基本类型
+> Python Data Structures
 
 <!--more-->
 
