@@ -104,7 +104,7 @@ int bitCount(int x) {
 }
 ```
 
-The solution is like merge sort algorithm. This code is not beautiful because I want to use less operations. The algorithm should be like this. We consider every 1 bit infomation stores how many 1s in that 1 bit. Then we add every two bits and store the value in that two bits. We do the same thing two every four bits and eight bits as well as sixteen bits. Thus, after we finish doing the same operation on 32 bits,the 32 bits itself will store how many 1s in the origin 32 bits. Here we use unsigned is for logical shift.
+The solution is like merge sort algorithm. This code is not beautiful because I want to use less operations. The algorithm should be like this. We consider every 1 bit infomation stores how many 1s in that 1 bit. Then we add every two bits and store the value in that two bits. We do the same thing to every four bits and eight bits as well as sixteen bits. Thus, after we finish doing the same operation on 32 bits,the 32 bits itself will store how many 1s in the origin 32 bits. Here we use unsigned is for logical shift.
 
 ```
 unsigned bitCount(unsigned x) {
