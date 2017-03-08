@@ -6,7 +6,8 @@ order: 1
 share: false
 ---
 
->        Nothing changes when heart holds still.<br>All is well as you are well.
+> Nothing changes when heart holds still.
+> All is well as you are well.
 
 My name is PeiXiaoting, you can call me tinger. I am now a student in Department of Information Management at XJTU.
 
