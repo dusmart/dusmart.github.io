@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "Python Learning Notes 2"
-date:       2017-03-02
 author:     "tinger"
 tags:
     - code

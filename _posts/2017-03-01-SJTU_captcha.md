@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "简单验证码的识别"
-date:       2017-03-01
 author:     "dusmart"
 tags:
     - project
