@@ -3,12 +3,12 @@
 #
 # url: http://localhost:4000
 # baseurl: ""
-url: http://aste.date
+url: https://aste.date
 baseurl: ""
 title: tinger&dusmart
-description: Nothing changes when heart holds still.All is well as you are well。
-avatar: "/assets/img/icon.jpg"
-favicon: /assets/img/ogp.png
+description: Nothing changes when heart holds still.All is well as you are well.
+avatar: /assets/img/icon.jpg
+favicon: /assets/img/icon.jpg
 language: zh
 
 #
@@ -60,7 +60,7 @@ share_buttons:
   facebook: false # needs ogp.fb.app_id
   hatena: false
 ogp:
-  image_url: //dusmart.github.io/assets/img/ogp.png
+  image_url: //dusmart.github.io/assets/img/icon.jpg
   fb:
     admin: # facebook admin id
     app_id: # facebook application id
