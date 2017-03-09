@@ -11,7 +11,7 @@ share: false
 
 My name is PeiXiaoting(裴肖婷), you can call me **tinger**. I am now a student in Department of Information Management at XJTU.
 
-My name is DuShuai(杜帅).You can call me **dusmart**. Now I am a student in Department of Computter science at SJTU. Here is my story.
+My name is DuShuai(杜帅).You can call me **dusmart**. Now I am a student in Department of Computer science at SJTU. Here is my story.
 
 When I was young, I always went to game room. Not only did the games attract me, but also the machine itself attracted me so much. How could the screen display so beautiful cartoon characters? How does the machine work? **I knew nothing.**
 
