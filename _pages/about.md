@@ -9,7 +9,7 @@ share: false
 > Nothing changes when heart holds still.
 > All is well as you are well.
 
-My name is PeiXiaoting(裴肖婷), you can call me **tinger**. I am now a student in Department of Information Management at XJTU.
+My name is PeiXiaoting(裴肖婷), you can call me **tinger**. I am now a student in Department of Information Management at XATU.
 
 My name is DuShuai(杜帅).You can call me **dusmart**. Now I am a student in Department of Computer science at SJTU. Here is my story.
 
