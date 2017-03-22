@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Algorithm Project2 -- Merge Outline"
+title:      "Algorithm Project2.1 -- Merge Outline"
 author:     "dusmart"
 tags:
     - project
