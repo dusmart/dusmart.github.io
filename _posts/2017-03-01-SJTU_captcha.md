@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "简单验证码的识别"
+title:      "Recognition of Simple Captcha"
 author:     "dusmart"
 tags:
     - project
     - code
 ---
 
-交大统一身份认证页面验证码的识别，实际测试中的成功率92%-94%
+> 交大统一身份认证页面验证码的识别，实际测试中的成功率92%-94%
 
 <!--more-->
 
