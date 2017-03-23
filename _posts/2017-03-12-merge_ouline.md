@@ -1,20 +1,23 @@
 ---
 layout:     post
-title:      "Algorithm Project2.1 -- Merge Outline"
+title:      "Merge Outline Algorithm"
 author:     "dusmart"
 tags:
     - project
 ---
 
-> A simple O(nlogn) algorithm
+> A simple O(nlogn) algorithm using mergesort.
 
 <!--more-->
 
 ---
 
 ### Problem
+
 给定城市里几座矩形建筑的外形和位置，利用分治法求出这些建筑的(两维)轮廓，并消去隐藏线。建筑Bi通过三元组(Li，Hi，Ri)来表示。Li和Ri分别表示建筑的左右x坐标，而Hi表示建筑的高度。一个轮廓是一列x坐标以及与它们相连的高度，按照从左到右排列。要求从输入文件in.dat读入建筑数目和各个三元组，结果写入文件out.dat。
+
 ### Solution
+
 创建递归函数merge(structure)
 其中structure为多个建筑轮廓的数组，比如[[1,11,5],[2,6,7],[3,13,9],[12,7,16]]
 返回值为总的structure,对应上一行的例子，如[1, 11, 3, 13, 9, 0, 12, 7, 16, 0]

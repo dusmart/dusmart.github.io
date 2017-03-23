@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Algorithm Project2.2 -- Find K Smallest Numbers"
+title:      "Find K Smallest Numbers"
 author:     "dusmart"
 tags:
     - project
 ---
 
-> Find k smallest numbers from an unsorted list whose length is n.
+> Several solutions for finding k smallest numbers from an unsorted list whose length is n.
 
 <!--more-->
 
