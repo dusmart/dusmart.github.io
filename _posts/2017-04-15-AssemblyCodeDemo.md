@@ -13,14 +13,6 @@ tags:
 
 > The purpose of this project is to learn about the design and implementation of a pipelined Y86 processor, optimizing both it and a benchmark program to maximize performance.
 
-### Team Member
-
-5140309022 DuShuai dusmart@qq.com
-
-515030910024 WangZirun 906378526@qq.com
-
-515030910375 CaoBoheng 	451735634@qq.com
-
 ### Problem 1
 
 This is to write and simulate three Y86 programs according to some given C codes.
@@ -234,6 +226,8 @@ Npos1616:
 3. Reading two value from source at the same time, then writing two to destination at the same time could reduce data dependence. We didn't do this because the first two method had reached the 10.0 PCE. Still we tried this way, it indeed reduces the PCE.
 
 ### Result
+
+[final code](/assets/material/2017-04-15-report.zip)
 
 ![img](/assets/img/2017-04-15-1.png)
 
