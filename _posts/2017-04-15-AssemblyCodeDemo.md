@@ -205,7 +205,7 @@ Loop1:
     jle Done		# if so, goto Done
     iaddl $1, %eax		# count++
 ```
-2. the Loop16 could reduce 1 jump isntruction by rearrange the code like this.
+2. the Loop16 could reduce 1 jump isntruction by rearranging the code like this.
 ```
 Loop16:
     iaddl $-16,%edx		# len-16 < 0?
@@ -237,6 +237,6 @@ Figure 1: Test result for psim with extensive regression
 
 Figure 2: Test result for correctness
 
-![img jjjjjfdlskjsal](/assets/img/2017-04-15-3.png)
+![img](/assets/img/2017-04-15-3.png)
 
 Figure 3: Score for ncopy.ys
