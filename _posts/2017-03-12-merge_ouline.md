@@ -58,6 +58,8 @@ plt.show()
 
 ```python
 def merge(structure):
+    if len(structure) == 0:
+        return structure
     if len(structure) == 1:
         # to make every structure looks like this [x1,height(x1),x2,height(x2),...,xn,height(xn)]
         structure[0].append(0)
@@ -70,10 +72,13 @@ def merge(structure):
     result = []
     while(i<len(left) and j<len(right)):
         result.append(left[i])
-        if(j>1 and left[i+1] < right[j-1]):
-            result.append(right[j-1])
+        if (left[i] == right[j]):
+            result.append(max(left[i+1], right[j+1]))
         else:
-            result.append(left[i+1])
+            if(j>1 and left[i+1] < right[j-1]):
+                result.append(right[j-1])
+            else:
+                result.append(left[i+1])
         while(i+2<len(left) and j<len(right) and right[j]<left[i+2]):
             result.append(right[j])
             if(right[j+1] < left[i+1]):
@@ -88,7 +93,18 @@ def merge(structure):
     while(j<len(right)):
         result.append(right[j])
         j += 1
-    # throw out those extra feature, eg. [1,11,2,11,3,0] --> [1,11,3,0]
+    # merge those whose left&right border are adjacent, eg. [0,3,2,0,2,3,5,0] --> [0, 3, 5, 0]
+    final = [result[0],result[1]]
+    i = 2
+    while (i < len(result)):
+        if result[i] == final[-2]:
+            final[-1] = max(final[-1], result[i+1])
+        else:
+            final.append(result[i])
+            final.append(result[i+1])
+        i += 2
+    result = final
+    # merge those whose top border are the same, eg. [1,11,2,11,3,0] --> [1,11,3,0]
     final = [result[0],result[1]]
     i = 2
     while(i<len(result)):
@@ -121,4 +137,53 @@ def main():
                 fout.write(str(i)+'\n')
 if __name__ == "__main__":
     main()
+```
+
+
+Here is a best version without adjacent lines occuring:
+
+```
+def merge(self, structure):
+    if len(structure) == 0:
+        return structure
+    if len(structure) == 1:
+        # to make every structure looks like this [x1,height(x1),x2,height(x2),...,xn,height(xn)]
+        structure[0].append(0)
+        return structure[0]
+    middle = len(structure)//2
+    left = self.merge(structure[:middle])
+    right = self.merge(structure[middle:])
+    # put every x in left and right to the result and generate the height for them
+    i, j = 0, 0
+    result = []
+    height1, height2 = 0, 0
+    nextX, nextH = 0, 0
+    while(i<len(left) and j<len(right)):
+        if left[i] == right[j]:
+            height1 = left[i+1]
+            height2 = right[j+1]
+            nextX = left[i]
+            nextH = max(height1, height2)
+            i += 2
+            j += 2
+        elif left[i] < right[j]:
+            height1 = left[i+1]
+            nextX = left[i]
+            nextH = max(height1, height2)
+            i += 2
+        else:
+            height2 = right[j+1]
+            nextX = right[j]
+            nextH = max(height1, height2)
+            j += 2
+        if len(result) == 0 or result[-1] != nextH:
+            result.append(nextX)
+            result.append(nextH)
+    while(i<len(left)):
+        result.append(left[i])
+        i += 1
+    while(j<len(right)):
+        result.append(right[j])
+        j += 1
+    return result
 ```
