@@ -315,4 +315,5 @@ for i in range(1000):
 | 框架StableBaseline | https://stable-baselines.readthedocs.io/en/master/           |
 | 探索还是利用？     | https://aijishu.com/a/1060000000134022                       |
 | 莫烦Python         | https://mofanpy.com/tutorials/machine-learning/reinforcement-learning/intro-DQN/ |
+| 端到端的交大验证码识别 | [captcha_keras_no_traning.zip](/assets/material/2021-03-25-captcha_keras_no_traning.zip) |
 

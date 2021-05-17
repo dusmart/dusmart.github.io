@@ -77,6 +77,10 @@ def trainLogRegres(train_x, old_train_y, opts):
     return weights  
 ```
 
+## 端到端的验证码识别
+
+原理略过，可参考 cs231n 课程。[讲演稿 keynotes 下载](/assets/material/2021-03-25-captcha.key)，[除了训练集的代码和模型下载](/assets/material/2021-03-25-captcha_keras_no_traning.zip)。
+
 ## 主要参考网站
 1. [COURSERA -- machine-learning](https://www.coursera.org/learn/machine-learning)
 2. [机器学习算法与Python实践之（七）逻辑回归（Logistic Regression）](http://blog.csdn.net/zouxy09/article/details/20319673#)
