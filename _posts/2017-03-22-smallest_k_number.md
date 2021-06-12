@@ -148,4 +148,19 @@ result = min_k(list, 0, list.length, k);
 2. 寻找n/5个组中的中位数
 3. 对于2中找出的n/5个中位数使用原算法寻找中位数，使用该中位数作为中间元素做划分，该中位数划分的两部分中每一部分最少占都3n/10个元素，所以本次一定可以排除至少3n/10个元素，子问题最多占7n/10个元素。
 
+```
+def m(x, i):
+    l = len(x)
+    if l < 9:
+        x.sort()
+        return x[i]
+    y = m([m(list(v),2) for v in zip(*[x[i::5] for i in range(5)])], l//10)
+    X = [v for v in x if y > v]
+    l = len(X)
+    return m([v for v in x if y <= v], i-l) if l <= i else m(X, i)
+```
+
+该代码出自https://github.com/vang1ong7ang的笔下，非常短小巧妙！
+
+
 因此找出无序的前k个数的时间复杂度T(n) <= T(n/5) + T(7n/10) + O(n),T(1) = O(1), T(n) = O(n)。
